@@ -120,7 +120,7 @@ We will need to look at the content of the page to analyze whether users are get
 Pages with the highest average time are:
 <br>
 ```{r, echo=FALSE, message=FALSE, prompt=FALSE, results='asis'}
-orderGaData <- gadata[order(gadata$timeonpage, decreasing = TRUE),] 
+orderGaData <- gadata[order(gadata$timeOnPage, decreasing = TRUE),] 
 orderGaData[1,4]
 orderGaData[2,4]
 orderGaData[3,4]
